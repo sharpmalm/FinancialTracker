@@ -1,0 +1,6 @@
+namespace FinancialTracker;
+
+class UserInterface
+{
+
+}
