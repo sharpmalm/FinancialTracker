@@ -12,7 +12,7 @@ class Program
         bool exit = false;
         while (!exit)
         {
-            Console.WriteLine("Press 1 to enter income or 2 to exit!");
+            Console.WriteLine("Press 1 to enter income, 2 to enter expences or 3 to exit!");
             string input = Console.ReadLine();
             switch (input)
             {
@@ -21,6 +21,10 @@ class Program
                     handler.ToString();
                     break;
                 case "2":
+                    ExpenceHandler handler1 = new ExpenceHandler();
+                    handler1.ToString();
+                    break;
+                case "3":
                     exit = true;
                     break;
                 default:
