@@ -1,6 +1,0 @@
-namespace FinancialTracker;
-
-class UserInterface
-{
-
-}
